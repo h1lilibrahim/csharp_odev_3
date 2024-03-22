@@ -306,23 +306,24 @@ sayı olarak 0 girilirse programı sonlandırın.
   }
 #### ödev_13 Kullanıcıdan bir sayı aralığı (x, y) isteyen ve x'ten y'ye kadar çarpım tablosunu
 görüntüleyen bir C# programı oluşturun.
+  
   Console.WriteLine("Bir X Sayısı Giriniz");
-   int x = Convert.ToInt32(Console.ReadLine());
+  int x = Convert.ToInt32(Console.ReadLine());
   
-   Console.WriteLine("Bir Y Sayısı Giriniz");
-   int y = Convert.ToInt32(Console.ReadLine());
+  Console.WriteLine("Bir Y Sayısı Giriniz");
+  int y = Convert.ToInt32(Console.ReadLine());
     
-  for (int i = x; i <= y; i++)
-  {
-   Console.WriteLine($"Çarpım tablosu {i} için:");
-  for (int j = 1; j <= 10; j++)
-    {
-   Console.WriteLine($"{i} x {j} = {i * j}");
-  }
-  Console.WriteLine();
-      }
+for (int i = x; i <= y; i++)
+{
+Console.WriteLine($"Çarpım tablosu {i} için:");
+for (int j = 1; j <= 10; j++)
+{
+Console.WriteLine($"{i} x {j} = {i * j}");
+}
+Console.WriteLine();
+}
   
-      Console.ReadLine();*/
+
 #### ödev_14 Bir öğrenc<n<n notunu bir tamsayıdan hesaplayan bir C# programı oluşturun.
 Kullanıcıdan bir sayı (x) isteyin ve aşağıdakileri yanıtlayın:
 - 10 - A+
@@ -513,11 +514,11 @@ while(s1>=s2)
 oluşturun. Ürün fşyatı (x) ve verşlen para (y) alan ve gerşye para üstü veren programı yazın.
 Değişimi büyük banknotları önce kullanarak 100, 50, 20, 10, 5, 2 veya 1 banknotlarını
 kullanarak yapmalısınız.
+
 Console.WriteLine("Ürün Fiyatını Giriniz: ");
 int fiyat = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Para Giriniz: ");
 int para = Convert.ToInt32(Console.ReadLine());
-
 double paraüstü = 0;
 if (para >= fiyat)
 {
@@ -559,3 +560,34 @@ if (s1 > 0 && s2 > 0 ){
 else if (s1 < 0 && s2 < 0){
     Console.WriteLine("ikiside neghatif");
 }
+#### ödev_24 Kullanıcıdan iki tamsayı (a, b) isteyen ve bunlardan kaç tanesinin pozitif olduğunu kontrol eden bir C# programı oluşturun.
+
+  while(true)
+  {
+  Console.WriteLine("1. sayıyı girin:");
+  int s1 = Convert.ToInt32(Console.ReadLine());                
+  Console.WriteLine("2. sayıyı girin:");
+  int s2 = Convert.ToInt32(Console.ReadLine());
+  int sayaç = 0;
+  
+  if (s1>0 && s2>0)
+  { 
+      sayaç+= 2;
+      Console.WriteLine(sayaç);
+  }
+  else if (s1<0 && s2>0)
+  {
+      sayaç++;
+      Console.WriteLine(sayaç);
+  }
+  else if (s1>0 && s2<0)
+  {
+      sayaç++;
+      Console.WriteLine(sayaç);
+  }
+  else if (s1<0 && s2<0)
+  {
+      sayaç+=0;
+      Console.WriteLine(sayaç);
+  }
+  }
