@@ -468,31 +468,47 @@ while(s1>=s2)
     s1--;
 }*/
 /*ödev22
-Console.WriteLine("Ürün Fiyatını Giriniz: ");
-int fiyat = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Para Giriniz: ");
-int para = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("ürün fiyatını giriniz:");
+int ürün = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("ne kadar nakit para vereceksiniz:");
+int para = Convert.ToInt32(Console.ReadLine()); 
 
-double paraüstü = 0;
-if (para >= fiyat)
-{
-    paraüstü = para - fiyat;
-    int kuruş = 100;
-    while (paraüstü >= kuruş)
-    {
-    int kuruşler = (int)paraüstü / kuruş;
-    paraüstü = paraüstü % kuruş;
-    Console.WriteLine($"{kuruşler} {kuruş}");
-    }
-    if (paraüstü > 0)
-    {
-        Console.WriteLine($" paraüstü: {paraüstü}");
-    }
-}
-else
-{
-    Console.WriteLine("Para Üstünde Kalmıyorsunuz.");
-}*/
+double paraüstü = para -ürün ;
+
+
+while (true){
+    if (paraüstü == 0){
+        Console.WriteLine("para üstü yok");
+        break;
+        }
+    else if (ürün > para){
+        Console.WriteLine("Baran yetmiyor");
+        }
+    else if (paraüstü  >= 100){
+        paraüstü -= 100 ;
+        Console.Write("para üstü" + "100" + "TL");
+        }
+    else if (paraüstü  >= 50){
+        paraüstü -= 50 ;
+        Console.Write("para üstü" + "50" + "TL");
+        }
+    else if (paraüstü  >= 20){
+        paraüstü -= 20 ;
+        Console.Write("para üstü" + "20" + "TL");
+        }
+    else if (paraüstü  >= 10){
+        paraüstü -= 10 ;
+        Console.Write("para üstü" + "10" + "TL");
+        }
+    else if (paraüstü  >= 5){
+        paraüstü -= 5 ;
+        Console.Write("para üstü" + "5" + "TL");
+        }
+    else if (paraüstü  >= 2){
+        paraüstü -= 2 ;
+        Console.Write("para üstü" + "2" + "TL");
+        }
+        }*/
 /*ödev23
 Console.WriteLine("1. sayıyı girin:");
 int s1 = Convert.ToInt32(Console.ReadLine());
@@ -540,3 +556,4 @@ else if (s1<0 && s2<0)
     Console.WriteLine(sayaç);
 }
 }*/
+// rm -rf .git00,
