@@ -1,6 +1,6 @@
 # Proje Ödevi  
 ## Bu Ödevde;  
-#### Bir yazılım dili olan C# öğreniyorum. Öğrenmek için ise hocamın bana verdiği 8 tane uygulama var.Onları yapıyorum.
+#### Bir yazılım dili olan C# öğreniyorum. Öğrenmek için ise hocamın bana verdiği 24 tane uygulama var.Onları yapıyorum.
 ## Ödevler şu şekilde: 
 
 1. öved_1 Kullanıcıdan iki sayı ve bir işlem (+, -, x, /) isteyen ve ardından işlemi hesaplayıp sonucu ekrana yazan bir C# programı yazınız. Eğer işlem sembolü önceki sembollerden farklıysa, "Tanınmayan karakter" metnini gösteriniz.Bu durumu if bloğunu kullanarak gerçekleştiriniz.
