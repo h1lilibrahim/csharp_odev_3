@@ -1,11 +1,11 @@
-# Proje Ödevi
-## Bu Ödevde;
+# Proje Ödevi  
+## Bu Ödevde;  
 #### Bir yazılım dili olan C# öğreniyorum. Öğrenmek için ise hocamın bana verdiği 8 tane uygulama var.Onları yapıyorum.
-## Ödevler şu şekilde:
-#### öved_1 Kullanıcıdan iki sayı ve bir işlem (+, -, x, /) isteyen ve ardından işlemi hesaplayıp
-sonucu ekrana yazan bir C# programı yazınız. Eğer işlem sembolü önceki
-sembollerden farklıysa, "Tanınmayan karakter" metnini gösteriniz.
-• Bu durumu if bloğunu kullanarak gerçekleştiriniz.
+## Ödevler şu şekilde: 
+
+1. öved_1 Kullanıcıdan iki sayı ve bir işlem (+, -, x, /) isteyen ve ardından işlemi hesaplayıp sonucu ekrana yazan bir C# programı yazınız. Eğer işlem sembolü önceki sembollerden farklıysa, "Tanınmayan karakter" metnini gösteriniz.Bu durumu if bloğunu kullanarak gerçekleştiriniz.
+
+```c#
   Console.WriteLine("birinci sayı girin:");
   int s1 = Convert.ToInt32(Console.ReadLine());
   Console.WriteLine("ikinci sayı girin:");
@@ -38,10 +38,11 @@ sembollerden farklıysa, "Tanınmayan karakter" metnini gösteriniz.
   {
       Console.WriteLine("lütfen geçerli bir işlem giriniz");
   }
-  #### ödev_2 Kullanıcıdan iki sayı ve bir işlem (+, -, x, /) sembolü isteyen ve ardından işlem<
-hesaplayıp sonucu ekrana yazan bir C# programı yazınız.Eğer işlem sembolü
-önceki sembollerden farklıysa, "Tanınmayan karakter" metnini göster<n<z.
-• Bu durumu switch bloğunu kullanarak gerçekleştiriniz.
+```
+
+#### 2. ödev_2 Kullanıcıdan iki sayı ve bir işlem (+, -, x, /) sembolü isteyen ve ardından işlemi hesaplayıp sonucu ekrana yazan bir C# programı yazınız.Eğer işlem sembolü önceki sembollerden farklıysa, "Tanınmayan karakter" metnini gösteriniz.
+•Bu durumu switch bloğunu kullanarak gerçekleştiriniz.
+```c#
   Console.WriteLine("birinci sayı girin:");
   int s1 = Convert.ToInt32(Console.ReadLine());
   Console.WriteLine("ikinci sayı girin:");
@@ -73,8 +74,11 @@ hesaplayıp sonucu ekrana yazan bir C# programı yazınız.Eğer işlem sembolü
           Console.WriteLine("lütfen geçerli bir işlem giriniz");
           break;
   }
-#### ödev_3 Bir sayı (x) <steyen ve bu sayının pozitif mi yoksa negatif mi olduğunu yanıtlayan
-bir C# programı yazın.
+```
+
+
+#### 3. ödev_3 Bir sayı (x) isteyen ve bu sayının pozitif mi yoksa negatif mi olduğunu yanıtlayanbir C# programı yazın.
+```c#
   Console.WriteLine("bir sayı girin: ");
   int s1 = Convert.ToInt32(Console.ReadLine());
   if (s1 < 0)
@@ -85,8 +89,9 @@ bir C# programı yazın.
   {
       Console.WriteLine(s1 +" " +"sayısı pozitifdir");
   }
-#### ödev_4 C# dilinde üç sayıyı (x, y, z) isteyen ve en büyüğünü görüntüleyen bir program
-yazın.
+```
+#### 4. ödev_4 C# dilinde üç sayıyı (x, y, z) isteyen ve en büyüğünü görüntüleyen bir program yazın.
+```c#
   Console.WriteLine("birinci sayı girin:");
   int s1 = Convert.ToInt32(Console.ReadLine());
   Console.WriteLine("ikinci sayı girin:");
@@ -106,8 +111,9 @@ yazın.
   {
       Console.WriteLine("girdiğiniz sayılardan en büyük olanı sayı "+" "+s3);
   }
-#### ödev_5 C#'ta bir sayı (x) isteyen ve 10 * x'i görüntüleyen bir program oluşturun. Kullanıcı 0
-girene kadar tekrarlanmalıdır.
+```
+#### 5. ödev_5 C#'ta bir sayı (x) isteyen ve 10 * x'i görüntüleyen bir program  oluşturun. Kullanıcı 0 girene kadar tekrarlanmalıdır.
+```c#
   while (true)
   {
   Console.WriteLine("birinci sayı girin:");
@@ -120,8 +126,9 @@ girene kadar tekrarlanmalıdır.
   }
   
   }
-#### ödev_6 Kullanıcıdan bir dizi sayı (x, y) talep eden ve bunları ekranda görüntüleyen bir C#
-programı oluşturun.
+```
+#### 6. ödev_6 Kullanıcıdan bir dizi sayı (x, y) talep eden ve bunları ekranda görüntüleyen bir C# programı oluşturun.
+```c#
   Console.WriteLine("birinci sayı girin:");
   int s1 = Convert.ToInt32(Console.ReadLine());
   Console.WriteLine("ikinci sayı girin:");
@@ -131,8 +138,9 @@ programı oluşturun.
       Console.WriteLine(s1++);
       
   }
-#### ödev_7 C# dilinde sayı isteyen ve toplamlarını gösteren bir program yazın. Kullanıcı 0
-girene kadar numara isteyin ve program bittiğinde Bitti gösterilir.
+```
+#### 7. ödev_7 C# dilinde sayı isteyen ve toplamlarını gösteren bir program yazın. Kullanıcı 0 girene kadar numara isteyin ve program bittiğinde Bitti gösterilir.
+```c#
   int toplam= 0 ;
   while (true)
   {
@@ -149,12 +157,13 @@ girene kadar numara isteyin ve program bittiğinde Bitti gösterilir.
       Console.WriteLine(toplam);
       }
   }
-#### ödev_8 Kullanıcıdan 5 tam sayı isteyen ve aşağıdaki matematiksel istatistikleri ekranda
-görüntüleyen bir C# programı oluşturun:
+```
+#### 8. ödev_8 Kullanıcıdan 5 tam sayı isteyen ve aşağıdaki matematiksel istatistikleri ekranda görüntüleyen bir C# programı oluşturun:
 - 5 sayının toplamı
 - Aritmetik ortalama
 - Maksimum sayı
 - minimum sayı
+```c#
   Console.WriteLine("1. sayıyı girin:");
   int s1 = Convert.ToInt32(Console.ReadLine());
   Console.WriteLine("2. sayıyı girin:");
@@ -227,8 +236,9 @@ görüntüleyen bir C# programı oluşturun:
   Console.WriteLine("girdiğiniz sayıların en büyük sayı:"+max);
   
   Console.WriteLine("girdiğiniz sayıların en küçük sayı:"+min);
-#### ödev_9 C# dilinde bir sayı (x) ve bir miktar (y) isteyen bir program yazın. Bu sayıyı miktarın (y) katı
-kadar gösterin.
+```
+#### 9. ödev_9 C# dilinde bir sayı (x) ve bir miktar (y) isteyen bir program yazın. Bu sayıyı miktarın (y) katı kadar gösterin.
+```c#
   Console.WriteLine("x sayısını girin:");
   int s1 = Convert.ToInt32(Console.ReadLine());
   Console.WriteLine("y miktarını  girin:");
@@ -237,17 +247,18 @@ kadar gösterin.
   {
       Console.Write(s1);
   }
-#### ödev_10 1'den 500'e kadar 3'ün ve 5'in katları olan sayıları gösteren bir C# programı oluşturun.
+```
+#### 10. ödev_10 1'den 500'e kadar 3'ün ve 5'in katları olan sayıları gösteren bir C# programı oluşturun.
+```c#
   int x = 0;
   while(x < 500)
   { 
       Console.WriteLine(x);
       x+=15;
   }
-#### ödev_11 C# dilinde kullanıcıdan kullanıcı adı ve şifre isteyen bir erişim kontrolü yazın. Her ikisi de
-tamsayı olmalıdır ve giriş 12 ve şifre 1234 olduğunda "giriş başarılı yazmalı" yanlışsa ve
-en fazla 3 deneme yapana kadar tekrarlanmalıdır.
-Kullanıcı adı ve şifre doğruysa Giriş başarılı mesajını gösterir, aksi halde Giriş başarısız
+```
+#### 11. ödev_11 C# dilinde kullanıcıdan kullanıcı adı ve şifre isteyen bir erişim kontrolü yazın. Her ikisi de tamsayı olmalıdır ve giriş 12 ve şifre 1234 olduğunda "giriş başarılı yazmalı" yanlışsa ve en fazla 3 deneme yapana kadar tekrarlanmalıdır.Kullanıcı adı ve şifre doğruysa Giriş başarılı mesajını gösterir, aksi halde Giriş başarısız
+```c#
 mesajını gösterir.
   int deneme_hakkı =3;
   while (true )
@@ -276,9 +287,9 @@ mesajını gösterir.
       }
       }
   }
-#### ödev_12 C# dilinde kullanıcıdan iki sayı isteyen ve bölme işlemi ile bölmenin geri kalanını
-gösteren bir program yazın. İkinci sayı olarak 0 girilirse kullanıcıya bildirim yapın ve ilk
-sayı olarak 0 girilirse programı sonlandırın.
+```
+#### 12. ödev_12 C# dilinde kullanıcıdan iki sayı isteyen ve bölme işlemi ile bölmenin geri kalanını gösteren bir program yazın. İkinci sayı olarak 0 girilirse kullanıcıya bildirim  yapın ve ilk sayı olarak 0 girilirse programı sonlandırın.
+```
   while (true)
   {
   Console.WriteLine("1. sayıyı girin:");
@@ -304,14 +315,14 @@ sayı olarak 0 girilirse programı sonlandırın.
   int kalan = s1 % s2;
   Console.WriteLine("kalan:"+kalan);}
   }
-#### ödev_13 Kullanıcıdan bir sayı aralığı (x, y) isteyen ve x'ten y'ye kadar çarpım tablosunu
-görüntüleyen bir C# programı oluşturun.
+```
+#### 13. ödev_13 Kullanıcıdan bir sayı aralığı (x, y) isteyen ve x'ten y'ye kadar çarpım tablosunu görüntüleyen bir C# programı oluşturun.
+```c#
+Console.WriteLine("Bir X Sayısı Giriniz");
+int x = Convert.ToInt32(Console.ReadLine());
   
-  Console.WriteLine("Bir X Sayısı Giriniz");
-  int x = Convert.ToInt32(Console.ReadLine());
-  
-  Console.WriteLine("Bir Y Sayısı Giriniz");
-  int y = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Bir Y Sayısı Giriniz");
+int y = Convert.ToInt32(Console.ReadLine());
     
 for (int i = x; i <= y; i++)
 {
@@ -322,10 +333,9 @@ Console.WriteLine($"{i} x {j} = {i * j}");
 }
 Console.WriteLine();
 }
-  
+```  
 
-#### ödev_14 Bir öğrenc<n<n notunu bir tamsayıdan hesaplayan bir C# programı oluşturun.
-Kullanıcıdan bir sayı (x) isteyin ve aşağıdakileri yanıtlayın:
+#### 14. ödev_14 Bir öğrenc<n<n notunu bir tamsayıdan hesaplayan bir C# programı oluşturun.Kullanıcıdan bir sayı (x) isteyin ve aşağıdakileri yanıtlayın:
 - 10 - A+
 - 9 - A
 - 7,8 - B
@@ -333,6 +343,7 @@ Kullanıcıdan bir sayı (x) isteyin ve aşağıdakileri yanıtlayın:
 - 5 - E
 - 0,4 - F
 - C# dilinde switch, break ve default komutlarını kullanın.
+```c#
   Console.WriteLine("notu giriniz: ");
   int sayı = Convert.ToInt32(Console.ReadLine());
   switch (sayı)
@@ -375,11 +386,12 @@ Kullanıcıdan bir sayı (x) isteyin ve aşağıdakileri yanıtlayın:
           break;
   
   }
-#### ödev_15 Kullanıcıdan iki tamsayı (x, y) isteyen ve bu sayıların aralığını (iki sayı da dahil olmak
-üzere) üç farklı yöntemle gösteren bir C# programı oluşturun:
+```
+#### 15. ödev_15 Kullanıcıdan iki tamsayı (x, y) isteyen ve bu sayıların aralığını (iki sayı da dahil olmak üzere) üç farklı yöntemle gösteren bir C# programı oluşturun:
 - for döngüsünü kullanarak.
 - while döngüsünü kullanarak.
 - do while talimatını kullanarak.
+```c#
 Console.WriteLine("1. sayıyı girin:");
 int s1 = Convert.ToInt32(Console.ReadLine());
 
@@ -388,8 +400,8 @@ int s2 = Convert.ToInt32(Console.ReadLine());
 for (int i = 1; s1 <= s2; i++)
 {
 Console.Write(s1 ++);
-}*/
-/*madde2
+}
+madde2
 Console.WriteLine("1. sayıyı girin:");
 int s1 = Convert.ToInt32(Console.ReadLine());
 
@@ -401,7 +413,7 @@ while(s1<s2)
     Console.Write(s1 ++);
 }
 */
-/*madde3
+madde3
 Console.WriteLine("1. sayıyı girin:");
 int s1 = Convert.ToInt32(Console.ReadLine());
 
@@ -410,10 +422,10 @@ int s2 = Convert.ToInt32(Console.ReadLine());
 do 
 {
     Console.Write(s1 ++);
-}while (s1<s2);*/
-#### ödev_16 Pozitif bir tamsayının kaç basamağı olduğunu hesaplayan programı c# ile hazırlayın.
-Kullanıcı negatif bir tamsayı girdiğinde, program uyarı mesajı göstermeli ve karşılık gelen
-pozitif sayı ile devam etmelidir.
+}while (s1<s2);
+```
+#### 16. ödev_16 Pozitif bir tamsayının kaç  basamağı olduğunu hesaplayan programı c# ile hazırlayın.Kullanıcı negatif bir tamsayı girdiğinde, program uyarı mesajı göstermeli ve karşılık gelen pozitif sayı ile devam etmelidir.
+```c#
 while (true)
 {
 Console.WriteLine("Sayı giriniz");
@@ -440,15 +452,17 @@ sayaç++;
 Console.WriteLine(sayaç+" Basamaklı");
 }             
 }
-#### ödev_17 Sadece bir for döngüsü ve char değişkenleri kullanarak alfabenin büyük harflerini
-gösteren bir C# programı yazın.
+```
+#### 17. ödev_17 Sadece bir for döngüsü ve char değişkenleri kullanarak alfabenin büyük harflerini gösteren bir C# programı yazın.
+```c#
 for (char i = 'A'; i <= 'Z'; i++)
 {
 Console.Write(i);
 }
-#### ödev_18 C# dilinde, bir sayının mutlak değerini hesaplayıp gösteren bir program yazın.
-Eğer sayı pozitifse, mutlak değeri tam olarak sayı x'tir.
-Eğer sayı negatifse, mutlak değeri -x'tir."
+```
+#### 18. ödev_18 C# dilinde, bir sayının mutlak değerini hesaplayıp gösteren bir program yazın. Eğer sayı pozitifse, mutlak değeri tam olarak sayı x'tir. Eğer sayı negatifse, mutlak değeri -x'tir."
+
+```c#
 Console.WriteLine("Sayı giriniz");
 int s1 = Convert.ToInt32(Console.ReadLine());  
 if (s1>0)
@@ -459,9 +473,9 @@ else if (s1<0)
 {
     Console.WriteLine("sayının mutlak değerden çıkmış hali"+" "+s1);
 }
-#### ödev_19 C# dilinde, kullanıcıdan iki tamsayı isteyen ve çarpımlarını gösteren, ancak *
-operatörünü kullanmadan gerçekleştiren bir program oluşturun. Ardışık toplamları
-kullanmalısınız
+```
+#### 19. ödev_19 C# dilinde, kullanıcıdan iki tamsayı isteyen ve çarpımlarını gösteren, ancak * operatörünü kullanmadan gerçekleştiren bir program oluşturun. Ardışık toplamları  kullanmalısınız
+```c#
 Console.WriteLine("1. sayıyı girin:");
 int s1 = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("2. sayıyı girin:");
@@ -472,8 +486,9 @@ for (int i=1;i <=s1 ; i++)
     toplam += s2;
 }
 Console.WriteLine(toplam);
-#### ödev_20 C# dilinde kullanıcıdan bir tamsayı soran ve bu sayının asal sayı olup olmadığını
-yanıtlayan bir program yazın.
+```
+#### 20. ödev_20 C# dilinde kullanıcıdan bir tamsayı soran ve bu sayının asal sayı olup olmadığını yanıtlayan bir program yazın.
+```c#
 Console.WriteLine("Sayı giriniz");
 int s1 = Convert.ToInt32(Console.ReadLine());
 int kontrol = 0;
@@ -496,8 +511,9 @@ else
 {
     Console.WriteLine("Asal sayı ");
 }
-#### ödev_21 C# dilinde, x'ten y'ye kadar olan tek sayıları azalan sırada gösteren bir program
-oluşturun.
+```
+#### 21. ödev_21 C# dilinde, x'ten y'ye kadar olan tek sayıları azalan sırada gösteren bir program oluşturun.
+```c#
 Console.WriteLine("1. sayıyı girin:");
 int s1 = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("2. sayıyı girin:");
@@ -510,11 +526,9 @@ while(s1>=s2)
 
     s1--;
 }
-#### ödev_22 Süpermarket kasasını simüle eden ve para üstünü hesaplamak için bir C# programı
-oluşturun. Ürün fşyatı (x) ve verşlen para (y) alan ve gerşye para üstü veren programı yazın.
-Değişimi büyük banknotları önce kullanarak 100, 50, 20, 10, 5, 2 veya 1 banknotlarını
-kullanarak yapmalısınız.
-
+```
+#### 22. ödev_22 Süpermarket kasasını simüle eden ve para üstünü hesaplamak için bir C# programı oluşturun. Ürün fşyatı (x) ve verşlen para (y) alan ve gerşye para üstü veren programı yazın. Değişimi büyük banknotları önce kullanarak 100, 50, 20, 10, 5, 2 veya 1 banknotlarını kullanarak yapmalısınız.
+```c#
 Console.WriteLine("Ürün Fiyatını Giriniz: ");
 int fiyat = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Para Giriniz: ");
@@ -539,11 +553,12 @@ else
 {
     Console.WriteLine("Para Üstünde Kalmıyorsunuz.");
 }
-#### ödev_23 Kullanıcıdan iki sayı isteyen ve koşullu operatör (?) kullanarak aşağıdakileri yanıtlayan bir
-C# programı oluşturun:
-- Eğer ilk sayı pozitifse
+```
+#### 23. ödev_23 Kullanıcıdan iki sayı isteyen ve koşullu operatör (?) kullanarak aşağıdakileri yanıtlayan bir C# programı oluşturun:
+- Eğer ilk sayı pozitifse 
 - Eğer ikinci sayı pozitifse
 - Eğer ikisi de pozitifse
+```c#
 Console.WriteLine("1. sayıyı girin:");
 int s1 = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("2. sayıyı girin:");
@@ -560,8 +575,9 @@ if (s1 > 0 && s2 > 0 ){
 else if (s1 < 0 && s2 < 0){
     Console.WriteLine("ikiside neghatif");
 }
-#### ödev_24 Kullanıcıdan iki tamsayı (a, b) isteyen ve bunlardan kaç tanesinin pozitif olduğunu kontrol eden bir C# programı oluşturun.
-
+```
+#### 24. ödev_24 Kullanıcıdan iki tamsayı (a, b) isteyen ve bunlardan kaç tanesinin pozitif olduğunu kontrol eden bir C# programı oluşturun.
+```c#
   while(true)
   {
   Console.WriteLine("1. sayıyı girin:");
@@ -591,3 +607,4 @@ else if (s1 < 0 && s2 < 0){
       Console.WriteLine(sayaç);
   }
   }
+```
